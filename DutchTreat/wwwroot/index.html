@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>index</title>
+    <link href="css/site.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>Texto en h1</h1>
+    <h2>Texto en h2</h2>
+    <h3>Texto en h3</h3>
+    <h4>Texto en h4</h4>
+    <h5>Texto en h5</h5>
+    <h6>Texto en h6</h6>
+    <p>Párrafo</p>
+    <p>Párrafo con texto <strong>negrita logrado con elemento strong</strong></p>
+    <p>Párrafo con texto <b>negrita logrado con elemento b</b></p>
+    <p>Link a http://www.microsoft.com con elemento a <a href="http://www.microsoft.com">Microsoft</a></p>
+    <ol>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ol>
+
+    <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+
+    <div class="product-info">
+        <br />
+        <img src="./img/VanGogh.jpg" alt="Alternate Text" />
+        <h3>Mug</h3>
+        <ul class="product-props">
+            <li>Price: $9.99</li>
+            <li>Artist; Van Gogh</li>
+            <li>Title:</li>
+            <li>Description: Self-portrait</li>
+        </ul>
+        <button id="buyButton">Buy</button>
+    </div>
+
+    <div id="theForm">
+        <form action="/" method="post">
+            <label>UserName:</label>
+            <input />
+            <br />
+            <label>Password:</label>
+            <input type="password" />
+            <br />
+            <input type="email" />
+            <br />
+            <label>Subject:</label>
+            <br />
+            <input />
+            <br />
+            <label>Message</label>
+            <br />
+            <textarea rows="4"></textarea>
+            <br />
+            <input type="submit" value="Send Message" />
+        </form>
+    </div>
+
+    <div>            
+        <div id="loginToggle">
+            Login
+            <label>Hola</label>
+        </div>
+        <form class="popup-form">
+            <div>
+                <label>Username</label>
+                <input />
+            </div>
+            <div>
+                <label>Password</label>
+                <input type="password" />
+            </div>
+            <div>
+                <input type="checkbox" />
+                <label>Remember Me?</label>
+            </div>
+            <div>
+                <input type="submit" value="login" />
+            </div>
+        </form>
+    </div>
+    <div id="sample">
+        Sample 
+    </div>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
